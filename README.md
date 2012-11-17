@@ -1,5 +1,4 @@
-social-count
-============
+# social-count
 
 A [Goliath](http://goliath.io/) API for asynchronously gathering URL counts from various social networks
 
@@ -62,8 +61,7 @@ JSON Response:
 }
 ```
 
-License
-============
+## License
 
 social-count is released under the MIT license:
 
