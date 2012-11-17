@@ -9,7 +9,7 @@ http://social-count.herokuapp.com/?url=http://www.guardian.co.uk/science/blog/20
 
 JSON Response:
 
-```
+```json
 {
   "url": "http://www.guardian.co.uk/science/blog/2012/aug/06/curiosity-rover-mars-landing-live-blog",
   "count": 9031,
