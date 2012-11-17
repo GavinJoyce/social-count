@@ -1,7 +1,7 @@
 social-count
 ============
 
-A Goliath API for asynchronously gathering URL counts from various social networks
+A [Goliath](http://goliath.io/) API for asynchronously gathering URL counts from various social networks
 
 License
 ============
