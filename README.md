@@ -8,7 +8,10 @@ A [Goliath](http://goliath.io/) API for asynchronously gathering URL counts from
 
 http://social-count.herokuapp.com/?url=http://www.guardian.co.uk/science/blog/2012/aug/06/curiosity-rover-mars-landing-live-blog
 
-```{
+JSON Response:
+
+```
+{
   "url": "http://www.guardian.co.uk/science/blog/2012/aug/06/curiosity-rover-mars-landing-live-blog",
   "count": 9031,
   "sources": {
