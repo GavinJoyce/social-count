@@ -1,5 +1,4 @@
-social-count
-============
+# social-count
 
 A [Goliath](http://goliath.io/) API for asynchronously gathering URL counts from various social networks
 
@@ -8,7 +7,10 @@ A [Goliath](http://goliath.io/) API for asynchronously gathering URL counts from
 
 http://social-count.herokuapp.com/?url=http://www.guardian.co.uk/science/blog/2012/aug/06/curiosity-rover-mars-landing-live-blog
 
-```{
+JSON Response:
+
+```json
+{
   "url": "http://www.guardian.co.uk/science/blog/2012/aug/06/curiosity-rover-mars-landing-live-blog",
   "count": 9031,
   "sources": {
@@ -59,8 +61,7 @@ http://social-count.herokuapp.com/?url=http://www.guardian.co.uk/science/blog/20
 }
 ```
 
-License
-============
+## License
 
 social-count is released under the MIT license:
 
