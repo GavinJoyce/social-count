@@ -5,6 +5,6 @@ class Pinterest < SocialSource
   
   def parse_response(response)
     data = JSON.parse(response[13..-2]) #remove jsonp method wrapper 'receiveCount()'
-    { :count => data['count'] || 0 }
+    { :count => data['count'].to_i || 0 }
   end
 end
